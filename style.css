@@ -19,7 +19,7 @@ html{
 .navbar{
     position: fixed;
     width: 100%;
-    /*background: green;*/
+    background-color: rgba(17, 17, 17, 0.699);
     padding: 30px 0;
     z-index: 999;
     font-family: 'Ubuntu', sans-serif;
@@ -75,10 +75,9 @@ html{
 }
 .home{
     display: flex;
-    background: rgb(0, 0, 0);
-   /* background: url('images/bg.jpg') no-repeat;*/
+    background: url('images/cherry-689.png')  no-repeat right;
     height: 100vh;
-    color: white;
+    color: black;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
 }
