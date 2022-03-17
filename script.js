@@ -16,7 +16,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing",{
-        strings:["Estudante","Desenvolverdor","Freelancer"],
+        strings:["Estudante","Desenvolvedor","Freelancer"],
         typeSpeed:100,
         backSpeed:60,
         loop:true
