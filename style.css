@@ -81,7 +81,9 @@ html{
 }
 .home{
     display: flex;
-    background:url('images/people_in_computer.png')  no-repeat left fixed, url('images/bg1.jpg')  fixed right;
+    background:url('images/people_in_computer.png')  no-repeat left , url('images/bg1.jpg') right  ;
+    /*background: url('images/bg6.jpg') center no-repeat fixed;*/
+    /*background-size: contain;*/
     height: 100vh;
     color: white;
     min-height: 500px;
@@ -160,6 +162,10 @@ html{
 section{
     padding: 100px 0;
 }
+
+.about{
+    background: rgba(0, 0, 0, 0.432);
+}
 section .title{
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
@@ -225,7 +231,7 @@ section .title::after{
 .about .about-content .right a{
     display: inline-block;
     background: var(--cor0);
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
@@ -245,7 +251,7 @@ section .title::after{
     border-radius: 6px;
 }
 .services, .teams{
-    background: #111;
+    background: rgb(0, 0, 0);
     color: white;
 }
 .services .title::before,
